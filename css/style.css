@@ -208,7 +208,7 @@ label[for="b-soho"] {
   overflow-x: hidden;
 }
 
-.content>div:last-child {
+.con-main {
   width: 100%;
   max-width: 900px;
   background-color: #fff;
@@ -387,6 +387,33 @@ p{
   font-size: 1.7rem;
 }
 
+/* フッター */
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+  border-top: solid 3px #96C748;
+  padding: 0.7rem calc(50% - 450px);
+  background: #fff;
+}
+
+#s-report .footer {
+  border-color: #5C485F;
+}
+
+.footer>a>img{
+  width: 140px;
+  margin-left: 1rem;
+}
+
+.footer>span{
+  white-space: nowrap;
+  margin: 0 1rem;
+}
+
+
 .article {
   margin-bottom: 0.5rem;
   display: flex;
@@ -411,4 +438,8 @@ p{
 
 .article>div:nth-child(2){
   width: 70%;
+}
+
+ul {
+  margin-left: 2rem;
 }
